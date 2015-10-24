@@ -3,14 +3,14 @@
     <title><![CDATA[A Base]]></title>
     <link href="/abase/categories/testing.xml" rel="self"/>
     <link href="/"/>
-    <updated>2015-10-23T19:20:44-02:00</updated>
+    <updated>2015-10-24T01:41:10-02:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Lorem Ipsum]]></title>
-            <link href="/blog/2012/11/27/lorem-ipsum"/>
+            <link href="/tutoriais/2012/11/27/lorem-ipsum"/>
             <updated>2012-11-27T00:00:00-02:00</updated>
-            <id>/blog/2012/11/27/lorem-ipsum</id>
+            <id>/tutoriais/2012/11/27/lorem-ipsum</id>
             <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat congue
 lacus vel convallis. Cras nisi urna, ultrices non semper quis, ultricies sit
 amet est. Donec nunc velit, consequat a pulvinar a, eleifend id leo. Curabitur

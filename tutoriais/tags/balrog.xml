@@ -3,14 +3,14 @@
     <title><![CDATA[A Base]]></title>
     <link href="/tutoriais/tags/balrog.xml" rel="self"/>
     <link href="/"/>
-    <updated>2015-10-23T19:20:44-02:00</updated>
+    <updated>2015-10-24T01:41:10-02:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Balrog]]></title>
-            <link href="/blog/2012/10/16/balrog"/>
+            <link href="/tutoriais/2012/10/16/balrog"/>
             <updated>2012-10-16T00:00:00-03:00</updated>
-            <id>/blog/2012/10/16/balrog</id>
+            <id>/tutoriais/2012/10/16/balrog</id>
             <content type="html"><![CDATA[<p>Found out about <a href="http://github.com/igorw/balrog">Balrog</a> today! It looks
 like a really nice micro static site generator. Maybe Sculpin and Balrog
 can be friends?</p>

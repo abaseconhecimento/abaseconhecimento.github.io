@@ -6,18 +6,18 @@
     <title>O conhecimento precisa ser compartilhado!</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
-    <link rel="stylesheet" href="/Lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/LibThemes/ThemeDocs/Lib/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="/Lib/dist/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="/Lib/dist/css/skins/skin-black-light.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/LibThemes/ThemeDocs/Lib/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/LibThemes/ThemeDocs/Lib/dist/css/skins/skin-black-light.css">
+    <link rel="stylesheet" href="/LibThemes/ThemeDocs/style.css">
 
     <!-- -->
-    <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
+    <link rel="stylesheet" href="/LibThemes/ThemeDefault/github.css" />
     <style>
     /** quick fix because bootstrap <pre> has a background-color. */
     pre code { background-color: inherit; }
@@ -124,7 +124,7 @@
           <!-- INICIO SCULPIN POST -->
                 <article>
         <header>
-            <h2><a href="/blog/2013/02/04/highlight">Syntax Highlighting</a></h2>
+            <h2><a href="/tutoriais/2015/08/23/primeiros-hello-word">Primeiro Hello World</a></h2>
         </header>
         <div>
             <p>You're all programmers, right? And you're writing code snippets on your Sculpin
@@ -167,7 +167,50 @@ for suggesting it. :)</p>
             </article>
     <article>
         <header>
-            <h2><a href="/blog/2012/12/14/a-draft-post">This is a draft!</a></h2>
+            <h2><a href="/tutoriais/2013/02/04/highlight">Syntax Highlighting</a></h2>
+        </header>
+        <div>
+            <p>You're all programmers, right? And you're writing code snippets on your Sculpin
+powered blog? Yeah. So you want some highlighting with your static site generation?
+Here you go!</p>
+
+<pre><code>namespace Foo;
+
+/**
+ * Awesome Contrived Example.
+ */
+class Bar implements BarInterface
+{
+    private $baz;
+
+    public function __construct(BazInterface $baz)
+    {
+        $this-&gt;baz = $baz;
+    }
+
+    public function doIt()
+    {
+        return $this-&gt;baz-&gt;do('it');
+    }
+}
+</code></pre>
+
+<p>You can also use <a href="http://michelf.ca/projects/php-markdown/extra/#fenced-code-blocks">fenced code blocks</a> with a syntax declaration at the top.
+You can use either <code>~</code> or <code>`</code> to mark them.</p>
+
+<pre><code class="php">if ($fencedCodeBlock-&gt;syntax !== 'PHP') {
+    throw new UnexpectedValueException("wat");
+}
+</code></pre>
+
+<p>Like this addition to the skeleton? You can thank for <a href="https://github.com/Pawka">@Pawka</a>
+for suggesting it. :)</p>
+
+        </div>
+            </article>
+    <article>
+        <header>
+            <h2><a href="/tutoriais/2012/12/14/a-draft-post">This is a draft!</a></h2>
         </header>
         <div>
             <p>This is a draft post. You will only see this if you are running the <code>dev</code>
@@ -180,55 +223,6 @@ find.</p>
                     <p class="tags">
             Tags:
                         <a href="/blog/tags/drafts">drafts</a>                        </p>
-            </article>
-    <article>
-        <header>
-            <h2><a href="/blog/2012/11/27/lorem-ipsum">Lorem Ipsum</a></h2>
-        </header>
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat congue
-lacus vel convallis. Cras nisi urna, ultrices non semper quis, ultricies sit
-amet est. Donec nunc velit, consequat a pulvinar a, eleifend id leo. Curabitur
-vel leo eros, vitae elementum purus. Integer id lorem hendrerit purus gravida
-commodo. Pellentesque nec rhoncus turpis. Cras feugiat odio eget quam semper at
-dictum lectus adipiscing. In ut est et mauris pulvinar placerat eget fringilla
-lectus.</p>
-
-<p>Ut in mauris augue, vitae facilisis purus. Nam ullamcorper pharetra lorem,
-cursus lobortis tellus facilisis congue. Etiam ac dapibus lectus. Nunc tempus
-ullamcorper felis, eu sagittis risus mollis aliquam. Mauris congue orci ac metus
-egestas porta nec ac lectus. Nam ac neque vitae quam sagittis dapibus. Morbi sit
-amet erat ac justo rutrum molestie id in tortor. Proin egestas tortor neque,
-eget fringilla nunc. Donec consequat purus ac risus dignissim dignissim.
-Praesent dui nisl, suscipit sed cursus in, dictum non elit. Nulla eget congue
-nisl.</p>
-
-<p>Morbi hendrerit porta ante, dapibus adipiscing nibh ornare at. Nullam iaculis
-porta ante, at semper tellus auctor nec. Vestibulum nec justo sed purus
-elementum venenatis. In hac habitasse platea dictumst. Fusce nibh tellus, varius
-non commodo sit amet, eleifend placerat nisl. Donec sit amet enim cursus ligula
-adipiscing auctor. Nullam sagittis porta ligula vitae rutrum. Aenean id sapien
-mi, elementum ullamcorper lectus. Aliquam erat volutpat. Fusce bibendum, leo
-ultricies lacinia viverra, mauris urna fermentum sem, id tempus lectus nunc
-faucibus magna. Vestibulum risus mi, tempus ut lobortis non, mattis sed diam.
-Nunc at mattis leo.</p>
-
-<p>Ut erat nunc, vestibulum sit amet sodales non, tincidunt nec justo. Integer
-vitae tortor massa. Vestibulum tincidunt commodo lacus, ac cursus lorem mattis
-eu. Donec ut magna vel urna fermentum congue. Donec laoreet neque at velit
-imperdiet luctus. In consectetur lacus eu purus dictum a imperdiet leo
-ullamcorper. Phasellus consequat feugiat tincidunt. Quisque vel orci in mauris
-fermentum pretium.</p>
-
-<p>Pellentesque rhoncus accumsan auctor. Nunc venenatis tellus non ante pharetra
-pretium. Sed rutrum, eros eu tristique luctus, neque sapien ultrices felis, id
-varius orci erat eget leo. Curabitur ut volutpat diam. Phasellus porta neque
-vitae nisi sodales ultrices. Etiam ultricies blandit lorem, id accumsan eros
-facilisis vel. Praesent nulla sapien, laoreet sit amet dapibus sit amet,
-tincidunt vitae neque. Vestibulum aliquam sollicitudin urna, in facilisis dui
-aliquam id.</p>
-
-        </div>
             </article>
 <nav id="comment-nav-below" class="comment-navigation clearfix" role="navigation">
 
@@ -266,20 +260,20 @@ aliquam id.</p>
     </div><!-- ./wrapper -->
 
     <!-- jQuery 2.1.4 -->
-    <script src="/Lib/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="/LibThemes/ThemeDocs/Lib/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
-    <script src="/Lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/LibThemes/ThemeDocs/Lib/bootstrap/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="/Lib/plugins/fastclick/fastclick.min.js"></script>
+    <script src="/LibThemes/ThemeDocs/Lib/plugins/fastclick/fastclick.min.js"></script>
     <!-- AdminLTE App -->
-    <script src="/Lib/dist/js/app.min.js"></script>
+    <script src="/LibThemes/ThemeDocs/Lib/dist/js/app.min.js"></script>
     <!-- SlimScroll 1.3.0 -->
-    <script src="/Lib/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="/LibThemes/ThemeDocs/Lib/plugins/slimScroll/jquery.slimscroll.min.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-    <script src="/docs.js"></script>
+    <script src="/LibThemes/ThemeDocs/docs.js"></script>
 
         
-        <script src="/components/highlightjs/highlight.pack.js"></script>
+        <script src="/LibThemes/ThemeDefault/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
         

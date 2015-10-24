@@ -3,23 +3,23 @@
     <title><![CDATA[A Base]]></title>
     <link href="/abase/tags/sculpin.xml" rel="self"/>
     <link href="/"/>
-    <updated>2015-10-23T19:20:44-02:00</updated>
+    <updated>2015-10-24T01:41:10-02:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[And Then There Was Textile Support]]></title>
-            <link href="/blog/2012/11/26/and-then-there-was-textile-support"/>
+            <link href="/tutoriais/2012/11/26/and-then-there-was-textile-support"/>
             <updated>2012-11-26T00:00:00-02:00</updated>
-            <id>/blog/2012/11/26/and-then-there-was-textile-support</id>
+            <id>/tutoriais/2012/11/26/and-then-there-was-textile-support</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/netcarver/textile">Textile</a> support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!</p>
 
 <p>In honor of this milestone, this post is written in <strong>Textile</strong>.</p>]]></content>
         </entry>
             <entry>
             <title type="html"><![CDATA[Happy Birthday Sculpin!]]></title>
-            <link href="/blog/2011/12/20/happy-birthday-sculpin"/>
+            <link href="/tutoriais/2011/12/20/happy-birthday-sculpin"/>
             <updated>2011-12-20T00:00:00-02:00</updated>
-            <id>/blog/2011/12/20/happy-birthday-sculpin</id>
+            <id>/tutoriais/2011/12/20/happy-birthday-sculpin</id>
             <content type="html"><![CDATA[<p>The first commit to the Sculpin repository was made on December 20th, 2011.
 What a trip since then!</p>
 

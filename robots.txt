@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /blog/tags/
-Disallow: /blog/categories/
+Disallow: /tutoriais/tags/
+Disallow: /tutoriais/categories/
 
 Sitemap: /sitemap.xml
