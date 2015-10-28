@@ -43,7 +43,22 @@
 
   <link rel="stylesheet" href="/LibThemes/ThemeDefault/github.css" />
   <link rel="alternate" type="application/atom+xml" href="/LibThemes/ThemeDefault/atom.xml" title="A Base activity feed" />
-  <style>
+
+	<!-- JS das frases da PAGINA PRINCIPAL
+	<script type='text/javascript' src='/LibThemes/ThemeDefault/frases.js' language='JavaScript'></script>-->
+	<script language='JavaScript' type='text/JavaScript'>
+		function makeQuote() {
+		Q = new Array();
+		Q[0] = "Conhecimento foi feito para ser partilhado e não guardado.  Edward Klumpp"
+		Q[1] = "Não tenho medo de compartilhar conhecimento. Essa é a unica coisa que as pessoas não poderão roubar de mim.  Milena Leão"
+		Q[2] = "O conhecimento não é pra ser guardado a sete chaves e sim pra ser compartilhado, dividido, pois conhecimento guardado é igual dinheiro num cofre, perde o valor e não rende nada.  Lindomar Batista"
+		Q[3] = "A solução dos seus problemas não é dinheiro, politicos ou o governo. . . É conhecimento compartilhado!"
+		Q[4] = "Conhecimento compartilhado é conhecimento ampliado.  João Paulo Couto"
+		index = Math.floor(Math.random() * Q.length);
+		document.writeln(Q[index]);
+		}
+</script>
+	<style>
   /** quick fix because bootstrap <pre> has a background-color. */
   pre code { background-color: inherit; }
   </style>
@@ -53,9 +68,13 @@
 <header id="header">
 	<div id="head" class="parallax" parallax-speed="1">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="/LibThemes/ThemeDefault/assets/images/guy.jpg" alt="">
+			<img class="img-circle" src="/LibThemes/ThemeDefault/assets/images/img-principal.png" alt="">
 			<span class="title">A Base</span>
-			<span class="tagline">O conhecimento é como um jardim: se não for cultivado, não pode ser colhido!</span>
+			<span class="tagline">
+				<script language="javascript">
+						makeQuote();
+				</script>
+			</span>
 		</h1>
 	</div>
 
@@ -119,7 +138,7 @@
  				<article class="post">
 					<header class="entry-header">
  						<div class="entry-meta">
- 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">June 17, 2013</time></span>
+ 							<span class="posted-on"><time class="entry-date published" date="2013-06-17">Categoria</time></span>
  						</div>
  						<h1 class="entry-title"><a href="#" rel="bookmark">This is a draft!</a></h1>
 					</header>
@@ -213,14 +232,15 @@ find.</p>
         						<a href=""><i class="fa fa-twitter fa-2"></i></a>
         						<!--<a href=""><i class="fa fa-dribbble fa-2"></i></a>-->
         						<a href=""><i class="fa fa-github fa-2"></i></a>
+										<a href=""><i class="fa fa-youtube fa-2"></i></a>
         					</p>
         				</div>
         			</div>
 
         			<div class="col-md-3 widget">
-        				<h3 class="widget-title">Text widget</h3>
+        				<h3 class="widget-title">Sobre A Base</h3>
         				<div class="widget-body">
-        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
+        					<p>A Base é um projeto voltado para area de T.I que visa compartilhar conteudo sem cobrar nada , a meta é criar uma grande base de dados em portugues.</p>
         					<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>-->
         				</div>
         			</div>
@@ -229,12 +249,13 @@ find.</p>
         				<h3 class="widget-title">Projetos</h3>
         				<div class="widget-body">
         					<p>
-										<!--+234 23 9873237<br>-->
-										<a class="btn btn-default" href="#" role="button">Torrents</a>
+										<a href="#">A Base</a>
 										<br>
-										<a class="btn btn-default" href="#" role="button">ABase</a>
-        						<br><br>
-        						<a class="btn btn-default" href="#" role="button">Alho</a>
+										<a href="#">Torrents</a>
+										<!--
+        						<br>
+        						<a href="#">Alho</a>
+										-->
         					</p>
         				</div>
         			</div>
@@ -256,7 +277,7 @@ find.</p>
         			<div class="col-md-6 widget">
         				<div class="widget-body">
         					<p class="text-right">
-        						2015 A Base<br>
+        						A Base - 2015<br>
         					<!--	Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> -->
 									</p>
         				</div>
@@ -265,8 +286,6 @@ find.</p>
         		</div> <!-- /row of widgets -->
         	</div>
         </footer>
-
-
 
         <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
